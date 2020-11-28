@@ -21,7 +21,7 @@ class ProducerConfigTest {
     @Test
     public void sendStringMessagetoTestTopic(){
       //Object opf =  pf.getConfigurationProperties();
-      routingtemplate.send("testtopic", "testkey","balchal");
+      routingtemplate.send("testtopic", "testkey","testmessage");
     }
 
     //Send a message to ipcam - byteserializer
@@ -34,7 +34,7 @@ class ProducerConfigTest {
 
         String text = "Hello";
         byte[] byteArray = text.getBytes();
-        routingtemplate.send("ipcam", "test","balchalunderipcam".getBytes());
+        routingtemplate.send("ipcam", "test","testmessage".getBytes());
     }
 
 
