@@ -26,7 +26,6 @@ public class ProducerConfig {
 
 
     //Declare kafka variables
-//    @Value(value = "18.216.253.158:9092")
     @Value(value = "${spring.kafka.producer.bootstrap-servers}" )
     private String kafkaServer;
 

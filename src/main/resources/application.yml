@@ -1,6 +1,0 @@
-
-
-spring:
-  kafka:
-    producer:
-      bootstrap-servers: xx.xx.xx.xx:9092
