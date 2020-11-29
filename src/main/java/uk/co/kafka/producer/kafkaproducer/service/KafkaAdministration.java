@@ -1,4 +1,4 @@
-package uk.co.kafka.producer.service;
+package uk.co.kafka.producer.kafkaproducer.service;
 
 import lombok.val;
 import org.apache.kafka.clients.admin.AdminClient;

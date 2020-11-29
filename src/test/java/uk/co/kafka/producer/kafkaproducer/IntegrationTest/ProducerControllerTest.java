@@ -1,4 +1,4 @@
-package uk.co.kafka.producer.IntegrationTest;
+package uk.co.kafka.producer.kafkaproducer.IntegrationTest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

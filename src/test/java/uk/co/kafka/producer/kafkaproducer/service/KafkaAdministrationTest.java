@@ -1,8 +1,9 @@
-package uk.co.kafka.producer.service;
+package uk.co.kafka.producer.kafkaproducer.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import uk.co.kafka.producer.kafkaproducer.service.KafkaAdministration;
 
 import java.util.Set;
 

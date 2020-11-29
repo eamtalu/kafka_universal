@@ -1,4 +1,4 @@
-package uk.co.kafka.producer.config;
+package uk.co.kafka.producer.kafkaproducer.config;
 
 
 import org.apache.kafka.common.serialization.ByteArraySerializer;

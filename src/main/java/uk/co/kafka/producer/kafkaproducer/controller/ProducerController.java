@@ -1,4 +1,4 @@
-package uk.co.kafka.producer.controller;
+package uk.co.kafka.producer.kafkaproducer.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;

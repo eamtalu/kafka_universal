@@ -1,4 +1,4 @@
-package uk.co.kafka.producer.config;
+package uk.co.kafka.producer.kafkaproducer.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
